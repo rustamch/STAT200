@@ -150,17 +150,20 @@
 
 \section{Probability and Random Variables}
 
+\textbf{Determining Independence of Events}
+% to fill ! also consider its relevance to Chi-Square
+
 \textbf{The Binomial Model}
 \begin{itemize}
     \item Used for discrete random variables
-    \item The Binomial Experiment:
+    \item Binomial Model:
     \begin{itemize}
         \item Experiment must consist of \emph{n} identical trials (number of trials is fixed in advance)
         \item Outcomes of each trial are either success or failure
         \item Probability of success \emph{p} is constant
         \item Probability of failure is \emph{q} = 1 - \emph{p}
         \item The trials are independent
-        \item The random varialbe \emph{X} represents the number of successes out of \emph{n} trials 
+        \item The random variable \emph{X} represents the number of successes out of \emph{n} trials 
     \end{itemize}
 \end{itemize}
 
@@ -184,7 +187,7 @@
 \end{itemize}
 
 \noindent
-\textbf{Mean, Varaince and Standard Deviation for a Binomial Random Variable}
+\textbf{Mean, Variance and Standard Deviation for a Random Binomial Variable}
 \begin{itemize}
     \item Mean: \emph{np} \\
     Interp. average number of successes if you were to repeat experiment many times
@@ -196,6 +199,8 @@
     
 \end{itemize}
 
+\textbf{Uniform Random Variable}
+% to fill!
 
 \section{Correlation and Association}
 
@@ -440,10 +445,10 @@
 \subsection{One sample z-test}
 \textbf{Algorithm}
 \begin{itemize}
-\item Idenitify parameter of interest. Find the null and alternative hypotheseses.\\
+\item Idenitify parameter of interest. Find the null and alternative hypotheses.\\
       s - The standard deviation of the sample.\\
       n - The sample size.\\
-      $\mu$ - Hypothethised population mean.\\
+      $\mu$ - Hypothesized population mean.\\
       $\mathbf{SE}(\bar{y}) = \frac{s}{\sqrt{n}}$ - Standard error of the statistic.
 \item Construct the null-model: $\mathbf{N}(\mu,\frac{s}{\sqrt{n}})$
 \item Find the test-statistic(t): $\mathbf{Z} = \frac{x-\mu}{\mathbf{SE}(\bar{y})}$
@@ -458,7 +463,7 @@
 \subsection{One proportion z-test}
 \textbf{Algorithm}
 \begin{itemize}
-\item Idenitify parameter of interest. Find the null and alternative hypotheseses.\\
+\item Idenitify parameter of interest. Find the null and alternative hypotheses.\\
       n - The sample size.\\
       $p_0$ - Hypothethised proportion.\\
       $\mathbf{SD} = \sqrt{\frac{p_0(1-p_0)}{n}}$ - Standard error of the statistic.
@@ -510,6 +515,7 @@
 \end{itemize}
 \subsection{One sample t-test}
 \subsection{ANOVA}
+\subsection{Chi-Square Test}
 
 
 \end{document}
