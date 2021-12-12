@@ -150,17 +150,20 @@
 
 \section{Probability and Random Variables}
 
+\textbf{Determining Independence of Events}
+% to fill ! also consider its relevance to Chi-Square
+
 \textbf{The Binomial Model}
 \begin{itemize}
     \item Used for discrete random variables
-    \item The Binomial Experiment:
+    \item Binomial Model:
     \begin{itemize}
         \item Experiment must consist of \emph{n} identical trials (number of trials is fixed in advance)
         \item Outcomes of each trial are either success or failure
         \item Probability of success \emph{p} is constant
         \item Probability of failure is \emph{q} = 1 - \emph{p}
         \item The trials are independent
-        \item The random varialbe \emph{X} represents the number of successes out of \emph{n} trials 
+        \item The random variable \emph{X} represents the number of successes out of \emph{n} trials 
     \end{itemize}
 \end{itemize}
 
@@ -184,7 +187,7 @@
 \end{itemize}
 
 \noindent
-\textbf{Mean, Varaince and Standard Deviation for a Binomial Random Variable}
+\textbf{Mean, Variance and Standard Deviation for a Random Binomial Variable}
 \begin{itemize}
     \item Mean: \emph{np} \\
     Interp. average number of successes if you were to repeat experiment many times
@@ -196,6 +199,8 @@
     
 \end{itemize}
 
+\textbf{Uniform Random Variable}
+% to fill!
 
 \section{Correlation and Association}
 
@@ -250,7 +255,7 @@
     \end{math} \\
     (where \begin{math}\overline{y}\end{math} and \begin{math}\overline{x}\end{math} are the mean y and x values respectively)
 \end{itemize}
-
+`'
 \noindent
 \textbf{The Residuals}
 \begin{itemize}
@@ -391,6 +396,7 @@
     \item Statistic: a numerical summary of the sample
 \end{itemize}
 
+\noindent
 \textbf{Sampling Distribution of Proportions}
 \begin{itemize}
     \item The sample proportion (a) statistic) is given by: \\
@@ -406,11 +412,12 @@
         \begin{itemize}
             \item Sample is random
             \item Individual values are independent (sample size \begin{math}\le\end{math} 10\% of population)
-            \item sample size is large (\begin{math} np \ge 10 \textrm{ and } n(1-p) \ge 10 \end{math}) 
+            \item Sample size is large (\begin{math} np \ge 10 \textrm{ and } n(1-p) \ge 10 \end{math}) 
         \end{itemize}
     \end{itemize}
 \end{itemize}
 
+\noindent
 \textbf{Samplng Distribution of Means}
 \begin{itemize}
     \item The sample mean (a statistic) is given by: \\
@@ -421,6 +428,16 @@
         \item mean \begin{math}\mu(\bar y)\end{math} = \begin{math}\mu\end{math}
         \item standard deviaton \begin{math}\sigma(\bar y) = \frac{\sigma}{\sqrt{n}}\end{math}
     \end{itemize}
+    \item Central limit theorm (CLT)
+    \begin{itemize}
+        \item For sufficiently large samples, sample mean approximately follows the normal model
+        \item Assumption for CLT are:
+        \begin{itemize}
+            \item Sample is random
+            \item Individual values are independent (sample size \begin{math}\le\end{math} 10\% of population)
+            \item Sample size is sufficiently large (generally \begin{math}n \ge 30\end{math})
+        \end{itemize}
+    \end{itemize}
 \end{itemize}
 
 \section{Hypothesis Testing}
@@ -428,10 +445,10 @@
 \subsection{One sample z-test}
 \textbf{Algorithm}
 \begin{itemize}
-\item Idenitify parameter of interest. Find the null and alternative hypotheseses.\\
+\item Idenitify parameter of interest. Find the null and alternative hypotheses.\\
       s - The standard deviation of the sample.\\
       n - The sample size.\\
-      $\mu$ - Hypothethised population mean.\\
+      $\mu$ - Hypothesized population mean.\\
       $\mathbf{SE}(\bar{y}) = \frac{s}{\sqrt{n}}$ - Standard error of the statistic.
 \item Construct the null-model: $\mathbf{N}(\mu,\frac{s}{\sqrt{n}})$
 \item Find the test-statistic(t): $\mathbf{Z} = \frac{x-\mu}{\mathbf{SE}(\bar{y})}$
@@ -446,7 +463,7 @@
 \subsection{One proportion z-test}
 \textbf{Algorithm}
 \begin{itemize}
-\item Idenitify parameter of interest. Find the null and alternative hypotheseses.\\
+\item Idenitify parameter of interest. Find the null and alternative hypotheses.\\
       n - The sample size.\\
       $p_0$ - Hypothethised proportion.\\
       $\mathbf{SD} = \sqrt{\frac{p_0(1-p_0)}{n}}$ - Standard error of the statistic.
@@ -497,7 +514,56 @@
     Otherwise, you fail to reject the null-hypothesis.
 \end{itemize}
 \subsection{One sample t-test}
+\textbf{Algorithm}
+\begin{itemize}
+\item Idenitify parameter of interest. Find the null and alternative hypotheses.\\
+      s - The standard deviation of the sample.\\
+      n - The sample size.\\
+      $\mu$ - Hypothesized population mean.\\
+      $\mathbf{SE}(\bar{y}) = \frac{s}{\sqrt{n}}$ - Standard error of the statistic.
+\item Construct the null-model: $\mathbf{N}(\mu,\frac{s}{\sqrt{n}})$
+\item Find the test-statistic(t): $\mathbf{Z} = \frac{x-\mu}{\mathbf{SE}(\bar{y})}$
+\item Using R compute find the p-value using pt function:
+\begin{itemize}
+    \item For one sided tests use: pt(t, n-1)
+    \item For two sided tests use: 2 $\cdot$ pt(t, n-1)
+\end{itemize}
+\end{itemize}
 \subsection{ANOVA}
-
-
+\begin{itemize}
+    \item k = number of groups.
+    \item N = number of subjects in total.
+    \item SSTo = Sum of Squares Total.
+    \item SSTo = SSTr + SSEr.\\
+    \includegraphics{ANOVA.png}
+    \item After filling the table with the values and finding F statistic, you can decide to reject the null-hypothesis or not based on two methods:
+    \begin{itemize}
+        \item Method 1: 
+        \begin{enumerate}
+            \item Compute critical value using R : qf($1 - \alpha$, k - 1, N - k, lower.tail=TRUE) 
+            \item If F-statistic is greater than critical value - reject the null-hypothesis. Otherwise, you fail to reject the null-hypothesis.
+        \end{enumerate}
+        \item Method 2:
+        \begin{enumerate}
+            \item Compute the pvalue using R: pf($F$, k - 1, N - k, lower.tail=FALSE)
+            \item If pvalue is less than $\alpha$ - reject the null-hypothesis. Otherwise, you fail to reject the null-hypothesis.
+        \end{enumerate}
+    \end{itemize}
+\end{itemize}
+\subsection{Chi-Square Test}
+\begin{itemize}
+    \item n = number of groups.
+    \item c(kj...) = all observations from the table given where you enter the data for each row from left to right.
+    \item Enter your data: matrix($c(k_ij\dots)$, ncol=n, byrow=TRUE) 
+    \item Using R compute the p-value and test-statistic: chisq.test(sample.data, correct=FALSE)
+    \item If the p-value is less than $\alpha$ - reject the null-hypothesis. Otherwise, you fail to reject the null-hypothesis.
+    \item Example:\\
+    \includegraphics[scale = 0.5]{chisq.png}
+    \begin{enumerate}
+        \item Enter data into R: matrix(c(11,4,2,6), ncol=2, byrow=TRUE)
+        \item Using chisq function compute test-statistic: chisq.test(sample.data, correct=FALSE)\\
+        \includegraphics{chisq_results.png}
+        \item At 5$\%$ confidence level we would reject the null-hypothesis, because the p-value is less than 5$\%$.
+    \end{enumerate}
+\end{itemize}
 \end{document}

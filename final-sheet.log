@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.3)  10 DEC 2021 12:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.3)  12 DEC 2021 13:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -166,31 +166,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--131
 
  []
 
-[2] [3] [4] [5]
-<dec-tree.png, id=34, 955.57pt x 513.92pt>
+[2] [3] [4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+<dec-tree.png, id=37, 955.57pt x 513.92pt>
 File: dec-tree.png Graphic file (type png)
 <use dec-tree.png>
-Package pdftex.def Info: dec-tree.png  used on input line 337.
+Package pdftex.def Info: dec-tree.png  used on input line 444.
 (pdftex.def)             Requested size: 477.78383pt x 256.95937pt.
 
-Overfull \hbox (8.02881pt too wide) in paragraph at lines 337--338
+Overfull \hbox (8.02881pt too wide) in paragraph at lines 444--445
 [] 
  []
 
-[6 </Users/rustamnassyrov/Documents/STAT200/stat-final-files/dec-tree.png>] [7] [8] (/Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.aux) ) 
+[7] [8 </Users/rustamnassyrov/Documents/STAT200/stat-final-files/dec-tree.png>] [9]
+<ANOVA.png, id=52, 434.1018pt x 121.8954pt>
+File: ANOVA.png Graphic file (type png)
+<use ANOVA.png>
+Package pdftex.def Info: ANOVA.png  used on input line 538.
+(pdftex.def)             Requested size: 434.10075pt x 121.8951pt.
+ [10 </Users/rustamnassyrov/Documents/STAT200/stat-final-files/ANOVA.png>]
+<chisq.png, id=57, 591.20876pt x 141.52875pt>
+File: chisq.png Graphic file (type png)
+<use chisq.png>
+Package pdftex.def Info: chisq.png  used on input line 561.
+(pdftex.def)             Requested size: 295.60365pt x 70.76419pt.
+<chisq_results.png, id=58, 344.28625pt x 91.34125pt>
+File: chisq_results.png Graphic file (type png)
+<use chisq_results.png>
+Package pdftex.def Info: chisq_results.png  used on input line 565.
+(pdftex.def)             Requested size: 344.2854pt x 91.34102pt.
+ [11 </Users/rustamnassyrov/Documents/STAT200/stat-final-files/chisq.png> </Users/rustamnassyrov/Documents/STAT200/stat-final-files/chisq_results.png>] (/Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.aux) ) 
 Here is how much of TeX's memory you used:
- 1857 strings out of 478994
- 28331 string characters out of 5858184
- 332474 words of memory out of 5000000
- 19354 multiletter control sequences out of 15000+600000
+ 1878 strings out of 478994
+ 28629 string characters out of 5858184
+ 332476 words of memory out of 5000000
+ 19372 multiletter control sequences out of 15000+600000
  409644 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,5n,74p,352b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,5n,74p,352b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.pdf (8 pages, 221336 bytes).
+Output written on /Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.pdf (11 pages, 310408 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
