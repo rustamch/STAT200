@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1639344048 "/Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.tex" "/Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.pdf" "final-sheet" 1639344049
-  "/Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.aux" 1639344049 2013 0c7981392e7e5f58c9f5f1f347b0c221 ""
-  "/Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.tex" 1639344048 23706 a700c7071e7ef1404982a81febf7a747 ""
+["pdflatex"] 1639344112 "/Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.tex" "/Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.pdf" "final-sheet" 1639344112
+  "/Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.aux" 1639344112 2122 ecc0e1ddad9723590ed54892a695be6f ""
+  "/Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.tex" 1639344110 23771 97c199cbca3241c3df1a36ba3efabbda ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -65,11 +65,11 @@
   "chisq.png" 1639343177 129366 5ef008bec4aa75c5234146d9e03fa933 ""
   "chisq_results.png" 1639343862 22908 442d89fcec76aaba9626a11f1c338cee ""
   "dec-tree.png" 1639023048 41683 1a1cc9a02c60365b23270448d6c02fc6 ""
-  "final-sheet.aux" 1639344049 2013 0c7981392e7e5f58c9f5f1f347b0c221 "pdflatex"
-  "final-sheet.tex" 1639344048 23706 a700c7071e7ef1404982a81febf7a747 ""
+  "final-sheet.aux" 1639344112 2122 ecc0e1ddad9723590ed54892a695be6f "pdflatex"
+  "final-sheet.tex" 1639344110 23771 97c199cbca3241c3df1a36ba3efabbda ""
   (generated)
   "/Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.pdf"
-  "final-sheet.log"
-  "final-sheet.aux"
   "/Users/rustamnassyrov/Documents/STAT200/stat-final-files/final-sheet.log"
   "final-sheet.pdf"
+  "final-sheet.aux"
+  "final-sheet.log"
