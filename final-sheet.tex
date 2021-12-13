@@ -491,10 +491,8 @@
 \item Find the test statistic: \begin{math}t_o = \frac{\bar{y_1}-\bar{y_2}-\Delta_o}{SD(\bar{y_1}-\bar{y_2})}\end{math}
 \item Using R compute the p-value:
 \begin{itemize}
-    \item One-sided hypothesis : pnorm(t)
-    \item Two-sided hypothesis : 2 $\cdot$ pnorm(t)
-    \item or
-    \item \begin{math}pt(t_o, df=min(n_1-1, n_2-1))\end{math}
+    \item One-sided hypothesis : \begin{math}\textrm{pt}(t_o, \textrm{df=min}(n_1-1, n_2-1))\end{math}
+    \item Two-sided hypothesis : 2 $\cdot$ \begin{math}\textrm{pt}(t_o, \textrm{df=min}(n_1-1, n_2-1))\end{math}
 \end{itemize}
 \item If the p-value is less than $\alpha$ - reject the null-hypothesis. 
     Otherwise, you fail to reject the null-hypothesis.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.10)  12 DEC 2021 21:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.10)  12 DEC 2021 21:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -190,18 +190,18 @@ Overfull \hbox (8.02881pt too wide) in paragraph at lines 444--445
 <ANOVA.png, id=51, 434.1018pt x 121.8954pt>
 File: ANOVA.png Graphic file (type png)
 <use ANOVA.png>
-Package pdftex.def Info: ANOVA.png  used on input line 541.
+Package pdftex.def Info: ANOVA.png  used on input line 539.
 (pdftex.def)             Requested size: 434.10075pt x 121.8951pt.
  [10 <./ANOVA.png>]
 <chisq.png, id=56, 591.20876pt x 141.52875pt>
 File: chisq.png Graphic file (type png)
 <use chisq.png>
-Package pdftex.def Info: chisq.png  used on input line 564.
+Package pdftex.def Info: chisq.png  used on input line 562.
 (pdftex.def)             Requested size: 295.60365pt x 70.76419pt.
 <chisq_results.png, id=57, 344.28625pt x 91.34125pt>
 File: chisq_results.png Graphic file (type png)
 <use chisq_results.png>
-Package pdftex.def Info: chisq_results.png  used on input line 568.
+Package pdftex.def Info: chisq_results.png  used on input line 566.
 (pdftex.def)             Requested size: 344.2854pt x 91.34102pt.
  [11 <./chisq.png> <./chisq_results.png>] (final-sheet.aux) ) 
 Here is how much of TeX's memory you used:
@@ -213,7 +213,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,5n,62p,397b,248s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\ericn\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ericn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on final-sheet.pdf (11 pages, 335599 bytes).
+Output written on final-sheet.pdf (11 pages, 335329 bytes).
 PDF statistics:
  138 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
